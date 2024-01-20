@@ -11,7 +11,7 @@
 	After cloning the repository, navigate to the root folder specbee_assignment and open a terminal window from this folder.
 
 **Step 2: Configure DDEV**
-Run the following command in the root folder:
+Run the this command in the root folder:
 `ddev config`
 
 **Step 3: Select Project Name**
@@ -24,15 +24,15 @@ When asked for the web folder, keep it blank and hit Enter.
 Select drupal10 from the list.
 
 **Step 6: Start DDEV**
-Execute the following command:
+Execute the this command:
 `ddev start`
 
 **Step 7: Install Composer Dependencies**
-  Run the following command:
+  Run the this command:
 `ddev composer install`
 
 **Step 8: Import Database**
-Import the provided database specbee.sql.gz located in the root folder. Extract it and run the following command:
+Import the provided database specbee.sql.gz located in the root folder. Extract it and run the this command:
 
 `ddev import-db < specbee.sql`
 
