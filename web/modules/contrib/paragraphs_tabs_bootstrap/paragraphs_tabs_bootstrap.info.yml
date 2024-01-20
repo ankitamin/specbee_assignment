@@ -1,0 +1,12 @@
+name: 'Paragraphs tabs bootstrap'
+type: module
+description: 'Render paragraphs fields with format html bootstrap'
+package: Paragraphs
+core_version_requirement: ^8.8 || ^9 || ^10
+dependencies:
+  - paragraphs:paragraphs
+
+# Information added by Drupal.org packaging script on 2024-01-08
+version: '1.0.4'
+project: 'paragraphs_tabs_bootstrap'
+datestamp: 1704749947

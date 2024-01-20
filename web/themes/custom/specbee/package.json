@@ -1,0 +1,39 @@
+{
+  "name": "spcebee",
+  "version": "1.0.0",
+  "description": "This is a demo project theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-scss": "gulp lintScss",
+    "build-css": "gulp scsstocss",
+    "build": "gulp style",
+    "clean-cache": "gulp cacheclean",
+    "watch": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cache": "^1.1.3",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csslint": "^1.0.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "scss-lint": "^0.0.0"
+  },
+  "devDependencies": {
+    "gulp-connect": "^5.7.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-open": "^3.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-scss-lint": "^1.0.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.43.4"
+  }
+}
